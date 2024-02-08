@@ -147,6 +147,7 @@ img{
 /* movie result */
 .result-container{
     padding: 3rem 0;
+ 
 }
 .movie-poster img{
     max-width: 300px;
@@ -158,11 +159,20 @@ img{
 .movie-title{
     font-size: 2rem;
     color: var(--yellow-color);
+    margin: 2em;
 }
 
 .movie-info .language{
     color: var(--yellow-color);
     font-style: italic;
+    margin: 5em;
+
+}
+.genre{
+    color: var(--yellow-color);
+    font-style: italic;
+    margin: 5em;
+    
 }
 
 @media(max-width: 450px){
